@@ -80,8 +80,8 @@
             poster: obj['Poster'],
             year: obj['Year'],
             id: obj['imdbID']
-          }
-        })
+          };
+        });
         renderMovies();
       }
     });
